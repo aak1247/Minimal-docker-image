@@ -7,4 +7,4 @@ LABEL maintainer="aak1247@126.com"
 
 RUN apk --update --no-cache add sshpass openssh bash
 
-ENTRYPOINT ["/bin/bash"]
+ENTRYPOINT ["/bin/bash", "-c"]
